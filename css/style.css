@@ -92,6 +92,26 @@
 .About .row .col .content h1{
     text-align: center;
 }
+.contact{
+    height: 70vh;
+    padding: 30px;
+}
+.contact h3{
+    text-align: center;
+    padding: 10px;
+}
+.contact .row .contact-img{
+    background: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.contact button{
+    padding: 10px 5px;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+}
 .footer{
     height: 70vh;
     color: white;
