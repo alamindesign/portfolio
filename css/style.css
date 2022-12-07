@@ -51,15 +51,46 @@
     color: whitesmoke;
 }
 .project{
-    height: 50vh;
+    height: 60vh;
     background-color: white;
+}
+.project .row .col{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project .row .col .content{
+    text-align: center;
+}
+.project .row .col-image{
+    background: url(../images/col-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.About .row .about-img{
+    background: url(../images/about-me.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.About .row{
+    height: 70vh;
+}
+.About .row .col{
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-div.col.custom-align{
+.About .row .col .content{
+    text-align: justify;
+    padding: 10px;
+}
+.About .row .col .content h1{
     text-align: center;
-    
 }
 .footer{
     height: 70vh;
@@ -73,4 +104,11 @@ div.col.custom-align{
 }
 .footer .content .copywrite{
     margin-top: 50px;
+}
+.footer .content ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
 }
