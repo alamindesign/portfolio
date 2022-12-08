@@ -92,6 +92,11 @@
 .About .row .col .content h1{
     text-align: center;
 }
+/* //service  */
+.card .card-content .img{
+    height: 120px;
+}
+/* end service */
 .contact{
     height: 70vh;
     padding: 30px;
